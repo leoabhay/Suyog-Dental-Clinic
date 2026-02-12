@@ -49,7 +49,7 @@ export default function Header() {
                 }`}
               >
                 {link.name}
-                <span className={`absolute bottom-[-4px] left-0 h-0.5 bg-teal-700 transition-all duration-300 ${
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-teal-700 transition-all duration-300 ${
                   location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
                 }`}></span>
               </Link>

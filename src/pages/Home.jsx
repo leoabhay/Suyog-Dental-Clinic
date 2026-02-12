@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center pt-20">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-teal-900 via-teal-800/90 to-cyan-800/80"></div>
+          <div className="absolute inset-0 bg-linear-to-br from-teal-900 via-teal-800/90 to-cyan-800/80"></div>
           <img 
             src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&h=1080&fit=crop" 
             alt="Clinic Background" 
@@ -37,7 +37,7 @@ export default function Home() {
               </div>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[1.1] tracking-tight">
                 Your Smile, <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-300">Our Masterpiece.</span>
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-teal-300 to-cyan-300">Our Masterpiece.</span>
               </h1>
               <p className="text-xl text-teal-50/80 mb-10 max-w-xl leading-relaxed">
                 Experience best dental treatments in a luxurious environment. We combine expertise with technology to give you the smile you deserve.
@@ -192,7 +192,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_30%,_white_0%,_transparent_10%)] bg-[length:50px_50px]"></div>
         </div>
         <div className="container-custom relative z-10">
-          <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-[4rem] p-12 md:p-20 text-center text-white shadow-[0_0_100px_rgba(13,148,136,0.3)] border border-white/10">
+          <div className="bg-linear-to-r from-teal-600 to-teal-700 rounded-[4rem] p-12 md:p-20 text-center text-white shadow-[0_0_100px_rgba(13,148,136,0.3)] border border-white/10">
             <h2 className="text-4xl md:text-7xl font-black mb-8 leading-tight">
               Ready To Transform <br />
               <span className="text-teal-200">Your Smile?</span>
